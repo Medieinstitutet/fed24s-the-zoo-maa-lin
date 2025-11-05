@@ -70,13 +70,8 @@ Ha roligt, skratta och lär er massor!
 ## 🔍 ESLint-varningar:
 
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Applikationen är välutvecklad och uppfyller både G- och VG-kraven. Routerhantering, context och reducers är implementerade. Custom hook eller tjänst används för datahantering, och presentationen är stilren och interaktiv.
+## 🏆 **Betyg: G**
+📌 **Motivering:** Projektet uppfyller grundläggande krav såsom användning av router, hantering av djuröversikt och styling med SCSS. Funktionella aspekter som matningslogiken och användarinteraktionen kan behöva tydligare verifiering.
 
 💡 **Förbättringsförslag:**  
-Koden har en hög nivå av kvalitet och de tekniker som används visar på en djup förståelse för frontend-utveckling. Här är några små förbättringsförslag: 
-
-1. Förbättra felhanteringen med fallback UI för oväntade API-fel som inte fångas av nuvarande logik.
-2. Konsolidera CSS/SASS-styling genom att undvika dubbletter och säkerställa enhetlighet där det är möjligt.
-3. Utveckla mer omfattande tester, såsom enhetstester, för att säkerställa stabiliteten och pålitligheten i komponenterna.
-4. Överväg att bryta ner längre komponenter i mindre, mer hanterbara delar för ökad överskådlighet och underhållbarhet.
+Överväg att lägga till mer omfattande tester för att säkerställa att alla funktionella delar såsom matningshantering och tidsbaserade statusindikationer fungerar som avsett. Utforska mer avancerade animeringar och interaktionseffekter för en bättre användarupplevelse.
