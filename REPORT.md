@@ -71,7 +71,7 @@ Ha roligt, skratta och lär er massor!
 
 
 ## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet uppfyller alla krav för både G och VG. Koden är välstrukturerad och hanterar krav som användning av router, context, reducers och subtila animeringar effektivt.
+📌 **Motivering:** The project fulfills all 'G' and 'VG' requirements. It is well-structured, with effective use of React features such as context, reducers, routing, and styling techniques. The subtle animations and error handling enhance the user experience.
 
 💡 **Förbättringsförslag:**  
-Förbättringar kan innefatta dokumentation för custom hooks om de används, och att säkerställa fullständig implementation av tjänster för datahämtning.
+Adding more dynamic animations and comprehensive testing could improve the project further.
