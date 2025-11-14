@@ -1,7 +1,6 @@
 # 📌 Rättningsrapport – fed24s-the-zoo-maa-lin
 
 ## 🎯 Uppgiftens Krav:
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/xBUCHFwF)
 # The Zoo
 
 I denna inlämningsuppgift kommer ni att bygga ett zoo. Zoo:t har ett antal djur som kommer behöva matas. 
@@ -66,12 +65,11 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 
 Ha roligt, skratta och lär er massor!
 
-
 ## 🔍 ESLint-varningar:
 
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** The project fulfills all 'G' and 'VG' requirements. It is well-structured, with effective use of React features such as context, reducers, routing, and styling techniques. The subtle animations and error handling enhance the user experience.
+## 🏆 **Betyg: G**
+📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyg G. Studenten har implementerat en router för att hantera olika sidor, skapat en översiktssida för djuren där användare kan klicka för mer information, hanterat felaktiga bildlänkar och implementerat en mekanism för att mata djuren och spara tiden för matningen. Styling är implementerad med en teknik utöver ren CSS, vilket också uppfyller kravet. För att nå VG saknas dock användning av custom hooks eller tjänster för datahämtning, context för komponentkommunikation, och reducers för tillståndshantering.
 
 💡 **Förbättringsförslag:**  
-Adding more dynamic animations and comprehensive testing could improve the project further.
+För att uppnå VG kan projektet förbättras genom att använda en custom hook eller tjänster för att hämta data. Context bör användas istället för props för kommunikation mellan komponenter, och reducers bör användas för hantering av djurens tillstånd. Användningen av subtila animeringar vid interaktioner och sidladdningar kan förbättras. Dessutom kan kodens läsbarhet förbättras genom att minska upprepningar och följa DRY-principen mer noggrant. Error handling kan också förstärkas för att hantera oförutsedda fall bättre.
