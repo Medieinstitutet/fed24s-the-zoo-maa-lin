@@ -68,8 +68,12 @@ Ha roligt, skratta och lär er massor!
 ## 🔍 ESLint-varningar:
 
 
-## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyg G. Studenten har implementerat en router för att hantera olika sidor, skapat en översiktssida för djuren där användare kan klicka för mer information, hanterat felaktiga bildlänkar och implementerat en mekanism för att mata djuren och spara tiden för matningen. Styling är implementerad med en teknik utöver ren CSS, vilket också uppfyller kravet. För att nå VG saknas dock användning av custom hooks eller tjänster för datahämtning, context för komponentkommunikation, och reducers för tillståndshantering.
+## 🏆 **Betyg: VG**
+📌 **Motivering:** Projektet uppfyller alla krav för både G och VG. Koden är exceptionellt väl implementerad med en tydlig komponentbaserad struktur och användning av SCSS för styling. Projektet använder React Router för navigering, Context API och Reducers för state management, vilket är i linje med VG-kraven. Felhantering är implementerad, exempelvis vid hantering av trasiga bildlänkar. Användningen av animationer och subtila effekter bidrar till en bättre användarupplevelse. Alla funktionella och icke-funktionella krav från uppgiften är väl adresserade.
 
 💡 **Förbättringsförslag:**  
-För att uppnå VG kan projektet förbättras genom att använda en custom hook eller tjänster för att hämta data. Context bör användas istället för props för kommunikation mellan komponenter, och reducers bör användas för hantering av djurens tillstånd. Användningen av subtila animeringar vid interaktioner och sidladdningar kan förbättras. Dessutom kan kodens läsbarhet förbättras genom att minska upprepningar och följa DRY-principen mer noggrant. Error handling kan också förstärkas för att hantera oförutsedda fall bättre.
+Det finns några mindre förbättringsområden: 
+1. Kommentarer: Lägg till kommentarer i koden för att förbättra läsbarheten och underlätta för andra utvecklare att förstå logiken.
+2. Error Handling: Förbättra felhanteringen för att hantera API-fel eller nätverksproblem mer robust.
+3. Konsistens i Namngivning: Säkerställ att alla komponenter och filer följer samma namngivningskonventioner, t.ex. 'NotFOund.tsx' bör vara 'NotFound.tsx'.
+4. Optimering: Använd React.memo eller useMemo där det är lämpligt för att undvika onödiga renderingar och förbättra prestanda.
